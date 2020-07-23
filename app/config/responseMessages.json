@@ -1,0 +1,87 @@
+{
+    "APP_MESSAGES": {
+        "SUCCESS": {
+            "errorCode": "0",
+            "message"  : "Success"
+        },
+        "ERROR_VALIDATION": {
+            "errorCode": "101",
+            "message"  : "Validation Error"
+        },
+        "ERROR_USER_NOT_EXISTS": {
+            "errorCode": "102",
+            "message"  : "User does not exists"
+        },
+        "ERROR_AUTHENTICATION": {
+            "errorCode": "103",
+            "message"  : "Authentication Failed"
+        },
+        "ERROR_NO_DATA": {
+            "errorCode": "104",
+            "message"  : "No Data Available"
+        },
+        "ERROR_SERVER_ERROR": {
+            "errorCode": "105",
+            "message"  : "Server Error"
+        },
+        "CUSTOMER_PROFILE_NOT_FOUND": {
+            "errorCode" : "CustomerProfileNotFound",
+            "message"   : "Customer profile not found.",
+            "statusCode": 404
+        },
+        "USER_NOT_FOUND": {
+            "errorCode" : "UserNotFound",
+            "message"   : "User data not found.",
+            "statusCode": 200
+        },
+        "REPORT_NOT_FOUND": {
+            "errorCode" : "ReportNotFound",
+            "message"   : "Report data not found.",
+            "statusCode": 200
+        },
+        "ASSET_EXECEPTION_ERROR": {
+            "errorCode": "MarsException",
+            "message"  : "Mars Exception",
+            "statusCode": 500
+        },
+        "CUSTOMER_NOT_FOUND": {
+            "errorCode" : "CustomerNotFound",
+            "message"   : "Customer not found.",
+            "statusCode": 200
+        },
+        "INVALID_AUTH_TOKEN": {
+            "errorCode" : "InvalidAuthTokenException",
+            "message"   : "Invalid Auth Token Exception.",
+            "statusCode": 500
+        },
+        "INVALID_AUTH_SIGNATURE": {
+            "errorCode" : "InvalidAuthSignatureException",
+            "message"   : "Invalid Auth Signature Exception.",
+            "statusCode": 500
+        },
+        "AUTH_TOKEN_EXPIRED": {
+            "errorCode" : "AuthTokenExpiredException",
+            "message"   : "Auth Token Expired Exception.",
+            "statusCode": 500
+        },
+        "INVALID_BUREAU_TYPE": {
+            "errorCode" : "InvalidBureauTypeException",
+            "message"   : "Invalid Bureau Type Exception.",
+            "statusCode": 500
+        },
+         "DUPLICATE_CALLBACK_REQUEST": {
+            "errorCode": "101",
+            "message"  : "Duplicate Callback Request"
+        },
+        "ERROR_SSO_ERROR" : {
+            "errorCode" : "ssoLoginError",
+            "message"   : "Invalid Session",
+            "statusCode": 404                     
+        },
+        "CUSTOMER_ID_MISSING" : {
+            "errorCode" : "customerId Error",
+            "message"   : "customer id missing",
+            "statusCode": 400                  
+        }
+    }
+}

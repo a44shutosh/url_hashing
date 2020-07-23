@@ -1,0 +1,50 @@
+{
+    "server": {
+        "index": {
+            "port": 8055
+        }
+    },
+    "logging": {
+        "label"         : "urlHashing",
+        "consoleLevel"  : "debug",
+        "fileLevel"     : "debug",
+        "newrelic"      : false
+    },
+    "database": {
+        "mysqlMaster"    : {
+            "host"           : "127.0.0.1",
+            "port"           : "3306",
+            "user"           : "root",
+            "password"       : "root",
+            "database"       : "urlHashing",
+            "connectionLimit": 10
+        },
+        "mysqlReadSlave" : {
+            "host"           : "127.0.0.1",
+            "port"           : "3306",
+            "user"           : "root",
+            "password"       : "root",
+            "database"       : "urlHashing",
+            "connectionLimit": 10
+        }
+    },
+    "cors"                  : {
+        "origin"    : ["\\.local\\.urlHashing", "\\.urlHashingr\\.com"],
+        "headers"   : [
+            "authorization-key",
+            "pb-access-token",
+            "site-id",
+            "x-pb-site-id",
+            "x-pb-site-version",
+            "content-type",
+            "x-requested-with",
+            "accept",
+            "origin",
+            "authorization",
+            "visitid",
+            "siteid",
+            "pb-captcha-token",
+            "glss-token"
+        ]
+    }
+}
